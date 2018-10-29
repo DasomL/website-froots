@@ -1,0 +1,26 @@
+.header {
+  width: 280px;
+  background-color: #272727;
+}
+
+.title {
+  margin: 52px;
+}
+
+.logo {
+  width: 135px;
+  height: auto;
+}
+
+.name-kr {
+  width: 104px;
+  height: 66px;
+  font-family: NotoSansCJKkr;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: -1.9px;
+  color: #ffffff;
+}
