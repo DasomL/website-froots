@@ -1,5 +1,7 @@
-a {
+a,
+i {
   text-decoration: none;
+  color: #ffffff;
 }
 
 .header {
