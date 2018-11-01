@@ -26,9 +26,9 @@ a {
   border-top: solid 3px var(--black);
   border-bottom: solid 3px var(--black);
   cursor: pointer;
-  position: absolute;
-  right: 75px;
-  top: 65px;
+  position: relative;
+  float: right;
+  top: 22px;
 }
 
 .nav-list {

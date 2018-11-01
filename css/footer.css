@@ -23,6 +23,10 @@ a:visited {
   justify-content: space-between;
 }
 
+.footer-snsicon i {
+  padding-right: 10px;
+}
+
 .footer-slogan {
   font-family: BarlowSemiCondensed-lightItalic;
   font-size: 21px;
