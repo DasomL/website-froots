@@ -11,7 +11,7 @@
   padding-left: 75px;
 }
 
-a:visited {
+a:link a:visited {
   color: #555555;
 }
 
