@@ -1,0 +1,11 @@
+.section {
+  margin: auto 15%;
+}
+
+.index-img img {
+  width: 35%;
+  height: auto;
+}
+.index-title {
+  margin-bottom: 29px;
+}

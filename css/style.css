@@ -7,9 +7,10 @@
 
 @import "header.css";
 @import "footer.css";
+@import "section.css";
 
 /* Color palette */
-:root  {
+:root {
   --black: #272727;
 }
 
