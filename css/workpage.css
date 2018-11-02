@@ -1,0 +1,62 @@
+.section-workpage {
+  position: absolute;
+  top: 140px;
+  width: 100%;
+  height: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.work-mainimg {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.work-mainimg img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.work-pageinfo {
+  margin: 0 auto;
+  max-width: 1340px;
+  height: auto;
+  padding: 30px 50px 50px 50px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.work-infobox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.work-infotitle {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.work-pageintroduce {
+  width: 1200px;
+}
+
+.work-photo {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.work-photo1 {
+}
+
+.work-photo img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
