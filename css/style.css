@@ -19,6 +19,13 @@
 
 body {
   word-break: keep-all;
+  overflow: auto;
+  font-size: 0.95em;
+  line-height: 1.9;
+  letter-spacing: -0em;
+  word-spacing: 0.02em;
+  color: #000;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", serif;
 }
 
 h1 {
