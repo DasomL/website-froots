@@ -64,16 +64,54 @@
   bottom: 0;
   left: 0;
   display: flex;
+  align-items: center;
   justify-content: center;
+}
+
+.about-contents {
+  display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
 .about-img {
-  width: 50%;
-  height: auto;
+  margin-right: 70px;
 }
 
 .about-img img {
-  width: 100%;
+  width: 400px;
 }
-/* section about start */
+/* section about end */
+
+/* section contact start */
+.section-contact {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-img {
+  margin-right: 50px;
+}
+
+.contact-img img {
+  width: 200px;
+}
+
+.contact-text a {
+  text-decoration: underline;
+  color: var(--black);
+}
+
+/* section contact end */

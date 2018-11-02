@@ -67,3 +67,7 @@ a:visited {
 #touch:checked + .nav-list {
   height: 160px;
 }
+
+@media (max-width: 800px) .home .mobile-header {
+  display: inline;
+}
