@@ -1,0 +1,33 @@
+.index-contents {
+  position: relative;
+  max-width: 100%;
+  top: 100px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.index-mainimgbox {
+  max-width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  background-color: #55aa7e;
+}
+
+.index-maintxt {
+  max-width: 210px;
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.index-maintxt span {
+  max-width: 210px;
+  font-family: "Barlow-light";
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: semi-condensed;
+  line-height: 1.03;
+  letter-spacing: 6.9px;
+  color: #55aa7e;
+}
