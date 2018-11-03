@@ -1,0 +1,31 @@
+/* Color palette */
+:root {
+  --black: #272727;
+}
+
+/* Text styles */
+
+body {
+  word-break: keep-all;
+  overflow: auto;
+  font-size: 0.95em;
+  line-height: 1.9;
+  word-spacing: 0.02em;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", serif;
+}
+
+.index-contents {
+  animation: 1.5s bodypopin ease-in-out;
+}
+
+@keyframes bodypopin {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

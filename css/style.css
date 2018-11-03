@@ -5,23 +5,5 @@
 
 @import "header.css";
 @import "index-contents.css";
-
-/* Color palette */
-:root {
-  --black: #272727;
-}
-
-/* Text styles */
-
-body {
-  word-break: keep-all;
-  overflow: auto;
-  font-size: 0.95em;
-  line-height: 1.9;
-  word-spacing: 0.02em;
-  font-family: "Apple SD Gothic Neo", "Noto Sans KR", serif;
-  /* loading opacity */
-  opacity: 0;
-  transition: opacity 2s;
-  -webkit-transition: opacity 2s; /* Safari */
+@media screen {
 }
