@@ -1,3 +1,7 @@
+html,
+body {
+  overflow-x: hidden;
+}
 #menu {
   width: 25px;
   height: 18px;
@@ -21,7 +25,7 @@
   position: absolute;
   height: 4px;
   width: 50%;
-  background: #15123d;
+  background: #272727;
   opacity: 1;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -185,36 +189,6 @@
   top: 14px;
 }
 
-#header {
-  width: 100%;
-  text-align: center;
-}
-#header #logo {
-  font-size: 30px;
-  font-family: helvetica, arial;
-  font-weight: 800;
-  margin-top: 22px;
-  color: #15123d;
-}
-#header #cta-btn {
-  position: absolute;
-  right: 20px;
-  top: 22px;
-  background: #15123d;
-  color: #ffffff;
-  -mox-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 10px 20px;
-  font-size: 18px;
-  font-family: helvetica, arial;
-  font-weight: 800;
-  letter-spacing: 1px;
-  cursor: pointer;
-}
-#header #cta-btn:hover {
-  background: #322f5a;
-}
-
 #popup-bg {
   z-index: 50;
   background: rgba(0, 0, 0, 0.5);
@@ -246,6 +220,7 @@
   /* overflow-y: scroll; */
   -webkit-overflow-scrolling: touch;
   overflow-scrolling: touch;
+  display: block;
 }
 #popup-nav.open-popup {
   right: 0;

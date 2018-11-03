@@ -4,10 +4,11 @@ $(document).ready(function() {
     $("#popup-bg").fadeToggle();
     $("#popup-nav").toggleClass("open-popup");
   });
-  $("#cta-btn").click(function() {
-    $(".call-to-action-popup").fadeIn();
-  });
-  $("#close").click(function() {
-    $(".call-to-action-popup").fadeOut();
-  });
+
+  // $("#cta-btn").click(function() {
+  //   $(".call-to-action-popup").fadeIn();
+  // });
+  // $("#close").click(function() {
+  //   $(".call-to-action-popup").fadeOut();
+  // });
 });
