@@ -1,16 +1,14 @@
 .index-contents {
-  position: relative;
   max-width: 100%;
-  top: 100px;
+  top: 0px;
   margin: 0 auto;
-  padding: 0 50px;
 }
 
 .index-mainimgbox {
   max-width: 100%;
   height: 700px;
   margin: 0 auto;
-  background-color: #55aa7e;
+  background-color: #f2c400;
 }
 
 .index-maintxt {
