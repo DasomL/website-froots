@@ -7,7 +7,6 @@
 
 body {
   word-break: keep-all;
-  overflow: auto;
   font-size: 0.95em;
   line-height: 1.9;
   word-spacing: 0.02em;
@@ -36,7 +35,7 @@ body {
 
 @media screen and (max-width: 640px) {
   body .header {
-    height: 66px;
+    height: 60px;
     z-index: 9999;
     padding: 0;
   }
@@ -48,6 +47,11 @@ body {
   body .header-logo {
     max-width: 92px;
     height: 24px;
+  }
+
+  body #menu {
+    right: 25px;
+    top: 24px;
   }
 
   body .header-bottom {
@@ -62,7 +66,7 @@ body {
 
   body .index-contents {
     max-width: 100%;
-    top: 66px;
+    top: 60px;
     padding: 0;
   }
 

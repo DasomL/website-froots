@@ -1,7 +1,10 @@
 .index-contents {
+  position: relative;
   max-width: 100%;
-  top: 0px;
+  top: 100px;
   margin: 0 auto;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .index-mainimgbox {
@@ -22,7 +25,6 @@
   max-width: 210px;
   font-family: "Barlow-light";
   font-size: 40px;
-  font-weight: 500;
   font-style: normal;
   font-stretch: semi-condensed;
   line-height: 1.03;

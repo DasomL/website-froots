@@ -3,7 +3,7 @@
   height: 100px;
   background-color: #ffffff;
   position: fixed;
-  /* z-index: 999; */
+  z-index: 999;
   display: block;
   padding: 41px 50px 0px 50px;
 }
@@ -238,7 +238,7 @@
   right: -450px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 100px 60px;
+  padding: 100px 53px;
   z-index: 60;
   overflow-x: hidden;
   /* overflow-y: scroll; */
@@ -251,6 +251,7 @@
 }
 #popup-nav nav ul {
   list-style: none;
+  text-align: right;
   margin: 0;
   padding: 0;
   margin-bottom: 30px;
@@ -283,25 +284,12 @@
 #popup-nav nav a.large:hover {
   border-bottom: 5px solid #fdc13c;
 }
-#popup-nav #utility a {
-  font-size: 18px;
-  font-family: "Barlow-regular";
-  letter-spacing: 2px;
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: none;
-  line-height: 36px;
-  border-bottom: 2px solid #ffffff;
-}
-#popup-nav #utility a:hover {
-  border-bottom: 2px solid transparent;
-}
 
 #popup-nav #utility ul.social {
   list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
 }
 #popup-nav #utility ul.social li {
   width: 40px;
@@ -309,7 +297,7 @@
   overflow: hidden;
   display: inline-block;
   position: relative;
-  margin-right: 10px;
+  margin-left: 20px;
 }
 #popup-nav #utility ul.social li a {
   border-bottom: none;
