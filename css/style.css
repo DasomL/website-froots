@@ -1,7 +1,8 @@
 @import "reset.css";
 @import "global.css";
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Sans+KR");
-@import url("https://fonts.googleapis.com/css?family=Barlow|Barlow+Semi+Condensed|Barlow+Semi+Condensed:400i");
+@import url("https://fonts.googleapis.com/css?family=Barlow");
 
 @import "header.css";
 @import "index-contents.css";
+@import "work-contents.css";

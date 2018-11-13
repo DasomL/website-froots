@@ -6,8 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>FROOTS</title>
   <link rel="shortcut icon" href="froots_favicon.ico">
-
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['noto sans', 'Barlow']
+      }
+    });
+  </script>
 </head>
 
 <body>
@@ -17,11 +25,31 @@
       <div class="header-logo">
         <a href="index.html"><img src="img/logo.png" alt=""></a>
       </div>
-      <div class="header-nav">
-        <div class="header-nav-listicon">
-          <span class="nav-listicon-line"></span>
-          <span class="nav-listicon-line"></span>
-          <span class="nav-listicon-line"></span>
+      <div class="menusection">
+        <div id="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div id="popup-bg"></div>
+        <div id="popup-nav">
+          <nav>
+            <ul>
+              <li><a href="" class="large">WORK</a></li>
+              <li><a href="" class="large">ABOUT</a></li>
+              <li><a href="" class="large">CONTACT</a></li>
+            </ul>
+          </nav>
+
+          <div id="utility">
+            <ul class="social">
+              <li><a href="" class="icon--be"><i class="fab fa-behance">behance</i></a></li>
+              <li><a href="" class="icon--in">Instagram</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -31,91 +59,30 @@
       </div>
     </div>
   </div>
+  <div class="work-contents">
+    <div class="index-mainimgbox">
+    </div>
+    <div class="index-maintxt">
+      <span>FORM FOLLOWS ROOTS</span>
+    </div>
+    <div class="index-mainimgbox"></div>
+    <div class="index-mainimgbox"></div>
+    <div class="index-mainimgbox"></div>
 
-  <div class="section-work">
-    <div class="work">
-      <a href="workpage.html">
-        <img src="img/work1.jpg">
-        <div class="work-title">
-          <H2>리틀포쉬뽐뽐</H2>
-          <h4>Branding, Stationary Design</h4>
-        </div>
-      </a>
-    </div>
-    <div class="work">
-      <a href="#">
-        <img src="img/work2.jpg">
-        <div class="work-title">
-          <H2>플래닛도우</H2>
-          <h4>Branding, Editorial Design</h4>
-        </div>
-      </a>
-    </div>
-    <div class="work">
-      <a href="#">
-        <img src="img/work1.jpg">
-        <div class="work-title">
-          <H2>프로젝트 제목</H2>
-          <h4>Branding, Web Design</h4>
-        </div>
-      </a>
-    </div>
-    <div class="work">
-      <a href="#">
-        <img src="img/work1.jpg">
-        <div class="work-title">
-          <H2>프로젝트 제목</H2>
-          <h4>Branding, Web Design</h4>
-        </div>
-      </a>
-    </div>
-    <div class="work">
-      <a href="#">
-        <img src="img/work1.jpg">
-        <div class="work-title">
-          <H2>프로젝트 제목</H2>
-          <h4>Branding, Web Design</h4>
-        </div>
-      </a>
-    </div>
-    <div class="work">
-      <a href="#">
-        <img src="img/work1.jpg">
-        <div class="work-title">
-          <H2>프로젝트 제목</H2>
-          <h4>Branding, Web Design</h4>
-        </div>
-      </a>
-    </div>
-    <div class="work">
-      <a href="#">
-        <img src="img/work1.jpg">
-        <div class="work-title">
-          <H2>프로젝트 제목</H2>
-          <h4>Branding, Web Design</h4>
-        </div>
-      </a>
-    </div>
-    <div class="work">
-      <a href="#">
-        <img src="img/work1.jpg">
-        <div class="work-title">
-          <H2>프로젝트 제목</H2>
-          <h4>Branding, Web Design</h4>
-        </div>
-      </a>
-    </div>
+
+
   </div>
-  <div class="footer">
-    <div class="footer-snsicon">
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-behance-square"></i></a>
-      <a href="#"><i class="fab fa-youtube-square"></i></a>
-    </div>
-    <div class="footer-slogan">
-      FORM FOLLOWS ROOTS
-    </div>
-  </div>
+
+
+
+
+
+  <script src="popupmenubar.js">
+  </script>
+
+
+
+
 
 
 
