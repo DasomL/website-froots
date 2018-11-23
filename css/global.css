@@ -10,7 +10,6 @@ body {
   font-size: 0.95em;
   line-height: 1.9;
   word-spacing: 0.02em;
-  font-family: "Noto Sans", "Barlow";
 }
 
 /* index-contents-motion */
@@ -83,7 +82,6 @@ body {
 
   body .index-maintxt span {
     max-width: 121px;
-    font-family: "Barlow-light";
     font-size: 24px;
     line-height: 1.03;
     letter-spacing: 4.2px;
