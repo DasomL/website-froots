@@ -1,0 +1,23 @@
+.main {
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-title {
+  position: fixed;
+  z-index: 1;
+}
+
+.main-title img {
+  max-width: 654px;
+}
+
+.whitebg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  color: rgba(255, 255, 255, 1);
+}
