@@ -3,6 +3,10 @@
   height: 103px;
 } */
 
+.header-logo {
+  display: none;
+}
+
 /* menubutton */
 
 #nav {
@@ -220,10 +224,11 @@
   padding: 200px 40px 33px 30px;
   z-index: 100;
   overflow-y: hidden;
-  -webkit-overflow-scrolling: none;
-  overflow-x-scrolling: none;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
   display: block;
 }
+
 #popup-nav.open-popup {
   right: 0;
 }
@@ -278,15 +283,13 @@
 }
 
 #popup-nav-email {
-  position: absolute;
-  bottom: 90px;
-  right: 41px;
+  position: relative;
   z-index: 100;
   text-align: right;
+  top: 50px;
 }
 
 #popup-nav-email span {
-  position: relative;
   text-decoration: none;
   color: white;
   font-family: "HelveticaNeue-light";
@@ -297,14 +300,13 @@
 }
 
 #popup-nav-url {
-  position: absolute;
-  bottom: 33px;
-  right: 41px;
+  position: relative;
   z-index: 100;
+  text-align: right;
+  top: 70px;
 }
 
 #popup-nav-url span a {
-  position: relative;
   text-decoration: none;
   color: white;
   font-family: "HelveticaNeue-light";
