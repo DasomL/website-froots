@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&amp;subset=korean" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
 </head>
 <body>
   <div class="header">
@@ -25,7 +26,6 @@
           <li><a href="about.html">About</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="ourbrand.html">Our Brand</a></li>
-          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
       <div id="reddot"></div>
@@ -36,26 +36,48 @@
         <li><a href="http://behance.net/studiofroots" target="_blank"><img src="img/be.png" alt=""></a></li>
       </ul>
       </div>
-      <div id="popup-nav-url"><span><a href="index.html">studiofroots.com</a></span></div></div>
-  </div>
-
-  <div class="main">
-    <div class="main-title"><img src="img/main-title.png" alt=""></div>
-    <div class="main-img">
-      <img src="img/1.jpg" alt="">
+      <div id="popup-nav-url"><span><a href="index.html">studiofroots.com</a></span></div>
+      <div id="popup-nav-email"><span>Contact<p>contact@studiofroots.com</span></div>
     </div>
   </div>
 
+
+  <div class="container">
+    <section class="background">
+      <div class="content-wrapper">
+        <p class="content-title">Full Page Parallax Effect</p>
+        <p class="content-subtitle">Scroll down and up to see the effect!</p>
+      </div>
+    </section>
+    <section class="background">
+      <div class="content-wrapper">
+        <p class="content-title">Cras lacinia non eros nec semper.</p>
+        <p class="content-subtitle">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras ut massa mattis nibh semper pretium.</p>
+      </div>
+    </section>
+    <section class="background">
+      <div class="content-wrapper">
+        <p class="content-title">Etiam consequat lectus.</p>
+        <p class="content-subtitle">Nullam tristique urna sed tellus ornare congue. Etiam vitae erat at nibh aliquam dapibus.</p>
+      </div>
+    </section>
+</div>
+
+
   <div class="footer">
     <div class="froots-krname">프루츠</div>
-    <div class="froots-enname"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
     <div class="froots-sub">Brand Design Studio</div>
+  </div>
+  <div class="footer-center">
+    <div class="froots-enname"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
   </div>
 
 
 
 
 
+  <script src="mainparallax.js">
+  </script>
 
   <script src="popupmenubar.js">
   </script>

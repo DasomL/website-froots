@@ -2,3 +2,8 @@ html,
 body {
   overflow-x: hidden;
 }
+
+::selection {
+  background: #d0021b;
+  color: white;
+}
