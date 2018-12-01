@@ -8,16 +8,19 @@
   justify-content: center;
 }
 
+.about-text {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 0 40px;
+}
 .about-text span {
-  width: 400px;
-  height: auto;
-  word-break: break-all;
+  word-break: keep-all;
   font-family: "NotoSansCJKkr-regular";
   font-size: 16px;
   line-height: 30px;
   letter-spacing: -0.5px;
   color: #000000;
-  text-align: center;
 }
 
 .devide-line {
@@ -25,8 +28,16 @@
   border: solid 0.5px #000000;
   margin: 50px auto;
 }
+
 .contact {
-  word-break: break-all;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.contact span {
+  word-break: keep-all;
   font-family: "NotoSansCJKkr-regular";
   font-size: 16px;
   line-height: 30px;
