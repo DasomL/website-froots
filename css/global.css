@@ -33,21 +33,24 @@ body {
 /* mobile device */
 
 @media screen and (max-width: 640px) {
-  body .header {
+  body .mobile-header {
+    display: block;
+    position: fixed;
+    z-index: 997;
+    width: 100%;
     height: 66px;
-    z-index: 9999;
     padding: 26px 23px 14px 23px;
     background-color: #ffffff;
   }
 
-  body .header-logo {
+  body .mobile-header-logo {
     display: block;
     position: fixed;
     width: 100px;
     height: 25px;
   }
 
-  body .header-logo img {
+  body .mobile-header-logo img {
     display: relative;
     width: auto;
     height: 100%;
@@ -60,6 +63,7 @@ body {
 
   body #popup-nav {
     padding: 98px 23px 25px 24px;
+    height: 100%;
   }
 
   body #popup-nav nav ul {
@@ -101,7 +105,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 98;
+    background-color: #ffffff;
   }
 
   body .mobile-froots-krname {

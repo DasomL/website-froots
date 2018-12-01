@@ -1,9 +1,8 @@
-/* .header {
-  width: 1280px;
-  height: 103px;
-} */
+.mobile-header {
+  display: none;
+}
 
-.header-logo {
+.mobile-header-logo {
   display: none;
 }
 
@@ -24,7 +23,7 @@
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
-  z-index: 102;
+  z-index: 9999;
 }
 
 #nav span {
@@ -118,7 +117,7 @@
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
-  z-index: 101;
+  z-index: 9998;
 }
 #close span {
   display: block;
@@ -197,7 +196,7 @@
 }
 
 #popup-bg {
-  z-index: 99;
+  z-index: 998;
   background: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
@@ -212,7 +211,7 @@
   -moz-transition: 0.4s ease-in-out;
   -o-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
-  position: absolute;
+  position: fixed;
   width: 100%;
   max-width: 300px;
   height: 100%;
@@ -222,7 +221,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 200px 40px 33px 30px;
-  z-index: 100;
+  z-index: 999;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   overflow-scrolling: touch;
@@ -284,7 +283,6 @@
 
 #popup-nav-email {
   position: relative;
-  z-index: 100;
   text-align: right;
   top: 50px;
 }
@@ -301,7 +299,6 @@
 
 #popup-nav-url {
   position: relative;
-  z-index: 100;
   text-align: right;
   top: 70px;
 }

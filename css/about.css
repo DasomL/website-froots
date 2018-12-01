@@ -49,11 +49,12 @@
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .email span {
   font-family: "HelveticaNeue";
-  font-size: 19px;
+  font-size: 17px;
   letter-spacing: 0.5px;
   color: #000000;
 }
