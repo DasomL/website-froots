@@ -144,6 +144,11 @@ body {
     margin-bottom: 5px;
   }
 
+  body .pf-info-title span {
+    font-size: 40px;
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+  }
+
   body .pf-info-category {
     margin-bottom: 20px;
   }
