@@ -32,6 +32,9 @@ body {
 /* mobile device */
 
 @media screen and (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
   /* header-start */
   body .mobile-header {
     display: block;
@@ -128,14 +131,6 @@ body {
   /* footer-end */
 
   /* container-start */
-
-  body .container {
-    overflow-x: hidden;
-  }
-
-  body #slideshow {
-    overflow-x: hidden;
-  }
 
   body .main-text {
     display: none;
