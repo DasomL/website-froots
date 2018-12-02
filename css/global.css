@@ -40,7 +40,7 @@ body {
     width: 100%;
     height: 66px;
     padding: 26px 23px 14px 23px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
   }
 
   body .mobile-header-logo {
@@ -103,7 +103,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
   }
 
   body .mobile-froots-krname {
@@ -130,7 +130,7 @@ body {
   /* footer-end */
 
   /* main-container-start */
-  body .container {
+  /* body .container {
     display: none;
   }
 
@@ -143,7 +143,7 @@ body {
     width: 100%;
     height: 1200px;
     background-color: gray;
-  }
+  } */
 
   /* about-start */
 
