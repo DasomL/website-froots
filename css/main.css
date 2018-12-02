@@ -1,11 +1,11 @@
 .container {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
 }
 
 #slideshow {
   opacity: 0.5;
+  overflow-x: hidden;
 }
 .bgwidth {
   width: 100%;
