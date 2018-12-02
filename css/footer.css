@@ -23,9 +23,9 @@
 }
 
 .froots-krname {
-  font-family: "NotoSansCJKkr-bold";
-  font-size: 17px;
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: bold;
+  font-size: 17px;
   letter-spacing: -0.5px;
   color: black;
 }
@@ -41,7 +41,7 @@
 }
 
 .froots-sub {
-  font-family: "HelveticaNeue-medium";
+  font-family: HelveticaNeue-medium, Helvetica, Arial, sans-serif;
   font-size: 14px;
   letter-spacing: 0px;
   color: #000000;

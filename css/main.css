@@ -65,13 +65,13 @@
 }
 .content-title {
   font-size: 8vh;
-  font-family: "helveticaneue-light";
+  font-family: HelveticaNeue-thin, Helvetica, Arial, sans-serif;
   letter-spacing: -5px;
   line-height: 1;
 }
 
 .content-subtitle {
-  font-family: "helveticaneue-bold";
+  font-family: HelveticaNeue-medium, Helvetica, Arial, sans-serif;
   font-size: 8vh;
   letter-spacing: -5px;
   line-height: 1;

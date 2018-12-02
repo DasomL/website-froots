@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>FROOTS | About</title>
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&amp;subset=korean" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
   <div class="header">
@@ -42,14 +43,14 @@
     </div>
   </div>
 
-  <div class="about">
+  <div class="about" data-aos="fade-up" data-aos-duration="2000">
     <div class="about-text">
       <span>
         성장하고 살아있는 것에게 제일 중요한 것은 뿌리입니다.<br><br>
         프루츠는 살아 숨쉬는 브랜드에게 가치를 대변하는 아이덴티티를 개발하고
-        그에 적합한 형태를 디자인하는 일을 합니다.
+        그에 적합한 형태를 디자인합니다.
         또한 브랜드가 원하는 이상을 위하여 다양한 도구를 기획하고 제작합니다.<br><br>
-        우리는 “무엇을 만들것인가” 보다 “어떻게 이야기 할 것인가”에 집중합니다.
+        우리는 “무엇을 만들것인가” 이전에 “어떻게 이야기 할 것인가”에 대해 집중합니다.
         브랜드의 고유한 속성을 표현하기 위해 긴밀한 대화를 필요로 하고,
         이를 토대로 모든 작업을 시작합니다.<br><br>
         때때로 우리가 추구하는 이념을 실행하기 위해 내부의 브랜드를 개발하고 소개합니다.
@@ -91,6 +92,11 @@
 
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+  AOS.init();
+</script>
 
   <script src="popupmenubar.js">
   </script>

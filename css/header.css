@@ -244,7 +244,7 @@
 }
 #popup-nav nav a {
   font-size: 30px;
-  font-family: "HelveticaNeue-light";
+  font-family: HelveticaNeue-light, Helvetica, Arial, sans-serif;
   color: #ffffff;
   text-decoration: none;
   letter-spacing: 1px;
@@ -290,7 +290,7 @@
 #popup-nav-email span {
   text-decoration: none;
   color: white;
-  font-family: "HelveticaNeue-light";
+  font-family: HelveticaNeue-light, Helvetica, Arial, sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
   line-height: 20px;
@@ -306,7 +306,7 @@
 #popup-nav-url span a {
   text-decoration: none;
   color: white;
-  font-family: "HelveticaNeue-light";
+  font-family: HelveticaNeue-light, Helvetica, Arial, sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
   border-bottom: solid 1px white;
