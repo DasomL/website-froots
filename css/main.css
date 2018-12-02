@@ -3,9 +3,23 @@
   height: 100%;
 }
 
+.main-text {
+  position: absolute;
+  z-index: 97;
+  max-width: 800px;
+  left: 5%;
+  top: 45%;
+  margin-right: 5%;
+}
+
+.main-text img {
+  width: 100%;
+}
+
 #slideshow {
   opacity: 0.5;
 }
+
 .bgwidth {
   width: 100%;
 }
