@@ -129,21 +129,29 @@ body {
 
   /* footer-end */
 
-  /* main-container-start */
-  /* body .container {
+  /* container-start */
+  body .main-text {
     display: none;
   }
 
-  body .mobile-container {
-    width: 100%;
-    height: auto;
+  body .mobile-main-text {
+    display: block;
+    position: absolute;
+    z-index: 97;
+    max-width: 80vw;
+    left: 6%;
+    bottom: 15%;
+    margin-right: 5%;
   }
 
-  body .mobile-background {
+  body .mobile-main-text img {
     width: 100%;
-    height: 1200px;
-    background-color: gray;
-  } */
+  }
+
+  body #slideshow {
+    overflow-x: hidden;
+  }
+  /* container-end */
 
   /* about-start */
 
