@@ -130,6 +130,11 @@ body {
   /* footer-end */
 
   /* container-start */
+
+  body .container {
+    overflow-x: hidden;
+  }
+
   body .main-text {
     display: none;
   }
@@ -148,9 +153,6 @@ body {
     width: 100%;
   }
 
-  body #slideshow {
-    overflow-x: hidden;
-  }
   /* container-end */
 
   /* about-start */
