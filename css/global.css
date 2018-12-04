@@ -22,11 +22,11 @@ body {
   right: 39px;
   bottom: 60px;
   display: none;
-  background-color: #fff;
 }
 .top img {
-  width: 30px;
+  width: 40px;
 }
+
 /* top-button-end */
 
 /* mobile device */
@@ -125,7 +125,11 @@ body {
 
   body .top {
     right: 23px;
-    bottom: 55px;
+    bottom: 50px;
+  }
+
+  body .top img {
+    width: 50px;
   }
 
   /* footer-end */
