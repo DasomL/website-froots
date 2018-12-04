@@ -5,6 +5,7 @@
 @import "main.css";
 @import "about.css";
 @import "main.css";
-@import "portfolio.css";
+@import "pf-content.css";
+@import "pf-main.css";
 
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500&subset=korean");

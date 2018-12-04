@@ -1,4 +1,4 @@
-.pf {
+.pf-content {
   width: 100%;
   height: 100%;
   padding: 114px 30px 100px 30px;
@@ -7,20 +7,20 @@
   align-items: center;
 }
 
-.pf-head-box {
+.pf-content-head-box {
   display: flex;
   margin-bottom: 80vh;
 }
 
-.pf-info {
+.pf-content-info {
   margin-right: 5vw;
 }
 
-.pf-info-title {
+.pf-content-info-title {
   margin-bottom: 17px;
 }
 
-.pf-info-title span {
+.pf-content-info-title span {
   word-break: keep-all;
   font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
   font-size: 55px;
@@ -28,12 +28,12 @@
   color: #000000;
 }
 
-.pf-info-category {
+.pf-content-info-category {
   height: auto;
   margin-bottom: 40px;
 }
 
-.pf-info-category span {
+.pf-content-info-category span {
   word-break: keep-all;
   font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -42,7 +42,7 @@
   color: #848484;
 }
 
-.pf-info-dateclient {
+.pf-content-info-dateclient {
   height: auto;
   display: flex;
   flex-direction: row;
@@ -70,11 +70,11 @@
   color: #000000;
 }
 
-.pf-head-detailtext {
+.pf-content-head-detailtext {
   max-width: 530px;
 }
 
-.pf-head-detailtext span {
+.pf-content-head-detailtext span {
   word-break: keep-all;
   font-family: "Noto Sans KR", sans-serif;
   font-weight: regular;
@@ -84,16 +84,16 @@
   color: #000000;
 }
 
-.pf-text-box {
+.pf-content-text-box {
   position: relative;
 }
 
-.pf-text-detailtext {
+.pf-content-text-detailtext {
   max-width: 800px;
   margin-bottom: 100px;
 }
 
-.pf-text-detailtext span {
+.pf-content-text-detailtext span {
   word-break: keep-all;
   font-family: "Noto Sans KR", sans-serif;
   font-weight: regular;

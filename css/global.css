@@ -162,28 +162,28 @@ body {
 
   /* pf-start */
 
-  body .pf {
+  body .pf-content {
     padding-top: 350px;
   }
 
-  body .pf-head-box {
+  body .pf-content-head-box {
     flex-direction: column;
   }
 
-  body .pf-info-title {
+  body .pf-content-info-title {
     margin-bottom: 5px;
   }
 
-  body .pf-info-title span {
+  body .pf-content-info-title span {
     font-size: 40px;
     font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
   }
 
-  body .pf-info-category {
+  body .pf-content-info-category {
     margin-bottom: 20px;
   }
 
-  body .pf-info-dateclient {
+  body .pf-content-info-dateclient {
     margin-bottom: 40px;
   }
 
