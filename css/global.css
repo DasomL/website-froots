@@ -136,6 +136,15 @@ body {
 
   /* container-start */
 
+  body .container {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body #slideshow {
+    overflow-x: hidden;
+  }
+
   body .main-text {
     display: none;
   }
