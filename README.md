@@ -3,6 +3,7 @@ froots's site
 
 # webpack-dev-server사용방법
 <pre>
+터미널에서
 npm install
 npm run dev
 localhost:9000/접속
