@@ -1,10 +1,6 @@
 html,
 body {
   overflow-x: hidden;
-  -ms-overflow-style: none;
-  &::-webkit-scrollbar {
-    display: none !important;
-  }
 }
 
 ::-webkit-scrollbar {
@@ -53,7 +49,6 @@ body {
   }
 
   body .mobile-header-logo img {
-    display: relative;
     width: auto;
     height: 100%;
   }
@@ -136,7 +131,12 @@ body {
 
   /* container-start */
 
-  body #slideshow {
+  body .container {
+    /*border: solid 1px;*/
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
   }
 
   body .main-text {
