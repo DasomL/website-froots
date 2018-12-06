@@ -1,7 +1,6 @@
 .container {
   width: 100%;
   height: 100%;
-  overflow: hidden;
 }
 
 .main-text {
@@ -22,7 +21,6 @@
 }
 
 #slideshow {
-  overflow: hidden;
   opacity: 0.5;
   width: 100%;
 }
