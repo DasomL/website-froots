@@ -4,7 +4,7 @@ body {
 }
 
 ::selection {
-  background: #d0021b;
+  background: black;
   color: white;
 }
 

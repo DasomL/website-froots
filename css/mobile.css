@@ -170,12 +170,29 @@
 
   /* pf-content start */
 
+  body .pf-content-info {
+    margin-right: 0;
+  }
+
   body .pf-content {
-    padding-top: 427px;
+    padding: 85px 30px 100px 30px;
+  }
+
+  body .pf-content-img {
+    margin-bottom: 30px;
+  }
+
+  body .pf-content-img {
+    margin-bottom: 30px;
   }
 
   body .pf-content-head-box {
     flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  body .pf-content-text {
+    margin-bottom: 30px;
   }
 
   body .pf-content-info-title {
