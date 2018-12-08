@@ -1,3 +1,7 @@
+.mobile-main {
+  display: none;
+}
+
 .main-text {
   position: absolute;
   z-index: 97;
@@ -5,10 +9,6 @@
   left: 5%;
   top: 45%;
   margin-right: 5%;
-}
-
-.mobile-main-text {
-  display: none;
 }
 
 .main-text img {
