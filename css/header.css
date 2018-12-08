@@ -6,7 +6,7 @@
   display: none;
 }
 
-/* menubutton */
+/* menubar */
 
 #nav {
   width: 22px;
@@ -222,7 +222,6 @@
   box-sizing: border-box;
   padding: 200px 40px 33px 30px;
   z-index: 999;
-  overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   overflow-scrolling: touch;
   display: block;

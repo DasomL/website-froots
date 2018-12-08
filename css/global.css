@@ -3,10 +3,6 @@ body {
   overflow-x: hidden;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
-
 ::selection {
   background: #d0021b;
   color: white;

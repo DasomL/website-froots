@@ -32,9 +32,9 @@
 }
 
 .contact {
-  margin: 0 auto;
   max-width: 700px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .contact span {
@@ -47,10 +47,7 @@
   color: #000000;
 }
 .email {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 50px;
+  text-align: center;
 }
 
 .email span {
