@@ -92,7 +92,7 @@
 
   body .top {
     right: 23px;
-    bottom: 50px;
+    bottom: 45px;
   }
 
   body .top img {
@@ -150,11 +150,6 @@
     top: 110px;
   }
 
-  body .whitespace {
-    width: 100%;
-    height: 100px;
-  }
-
   /* about-end */
 
   /* pf-main start */
@@ -201,4 +196,10 @@
   }
 
   /* pf-content end */
+
+  /* pf-menu-icon-start */
+  body .menu-icon {
+    bottom: 45px;
+  }
+  /* pf-menu-icon-end */
 }
