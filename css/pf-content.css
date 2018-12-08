@@ -113,6 +113,7 @@
   left: 50%;
   transform: translateX(-50%);
   bottom: 68px;
+  background: rgba(255, 255, 255, 0.8);
   border: solid 1px #d1d1d1;
   cursor: pointer;
 }
