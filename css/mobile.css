@@ -129,7 +129,7 @@
 
   body .mobile-main-text {
     display: block;
-    position: absolute;
+    position: fixed;
     z-index: 97;
     max-width: 80vw;
     left: 6%;
