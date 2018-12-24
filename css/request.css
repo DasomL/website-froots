@@ -91,10 +91,6 @@
 
 /* form-start */
 
-.form-box {
-  margin-bottom: 100px;
-}
-
 .form-title {
   max-width: 512px;
   height: 30px;
@@ -313,17 +309,37 @@ input[type="checkbox"]:checked + label::before {
   max-width: 512px;
   height: 3px;
   background-color: black;
-  margin: 50px auto 100px auto;
+  margin: 50px auto 80px auto;
 }
 
 /* summit button */
 
 .summit {
-  position: relative;
-  margin: 0 auto;
+  max-width: 512px;
+  margin: 0 auto 150px auto;
+  display: flex;
+  justify-content: center;
 }
 
 #summit-button {
   width: 100px;
-  height: 50px;
+  height: 35px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: regular;
+  color: black;
+  font-size: 15px;
+  letter-spacing: -0.5px;
+  border: 0px solid black;
+  border: 1px solid black;
+  border-radius: 0;
+  cursor: pointer;
+  outline-style: none; /* 포커스시 발생하는 효과 제거를 원한다면 */
+  -webkit-appearance: none; /* 브라우저별 기본 스타일링 제거 */
+  -moz-appearance: none;
+  appearance: none;
+}
+
+#summit-button:hover {
+  background-color: black;
+  color: white;
 }
