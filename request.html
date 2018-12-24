@@ -73,7 +73,7 @@
     <div class="request-must"><span>* 필수 입력 정보</span></div>
 
     <div class="form">
-      <div class="form-box">
+      <div class="form-box"> <!--의뢰인-->
         <div class="form-title">
           <div class="title-line"></div>
           <div class="form-title-text"><span>의뢰인</span></div>
@@ -95,9 +95,7 @@
         </div>
         <div class="form-end-line"></div>
       </div>
-
-
-      <div class="form-box">
+      <div class="form-box"> <!--브랜드정보-->
         <div class="form-title">
           <div class="title-line"></div>
           <div class="form-title-text"><span>브랜드정보</span></div>
@@ -119,9 +117,7 @@
         </div>
         <div class="form-end-line"></div>
       </div>
-
-
-      <div class="form-box">
+      <div class="form-box"> <!--프로젝트정보-->
         <div class="form-title">
           <div class="title-line"></div>
           <div class="form-title-text"><span>프로젝트정보</span></div>
@@ -130,7 +126,7 @@
         <div class="form-question-list">
           <div class="form-qna-long">
             <label id="form-question-long" for="form-anwser-long"><span class="mustmark">*</span>프로젝트개요 & 목적</label>
-            <input id="form-anwser-long" type="textarea">
+            <textarea id="form-anwser-long" cols="15" rows="3"></textarea>
           </div>
 
           <div class="form-qna-check">
@@ -154,15 +150,14 @@
               </div>
               <div class="check-list">
                 <input id="form-anwser-check-5" type="checkbox" value="etc">
-                <label for="form-anwser-check-5"></label>
+                <label for="form-anwser-check-5"><input id="etctext" type="text" placeholder="직접입력"></label>
               </div>
-              <div><input id="form-anwser" type="text" placeholder="직접입력"></div>
             </div>
           </div>
 
           <div class="form-qna-long">
             <label id="form-question-long" for="form-anwser-long">기타요청사항 & 남기실 말</label>
-            <input id="form-anwser-long" type="text">
+            <textarea id="form-anwser-long" cols="15" rows="3"></textarea>
           </div>
 
         </div>
@@ -170,7 +165,7 @@
       </div>
     </div>
     <div class="summit">
-      <input id="summit-button" type="summit">
+      <input id="summit-button" type="button" value="제출하기">
     </div>
   </div>
 

@@ -157,8 +157,8 @@
 }
 
 #form-anwser {
-  width: 100%; /* 원하는 너비 설정 */
-  height: 35px; /* 높이값 초기화 */
+  width: 100%;
+  height: 35px;
   font-family: "Noto Sans KR", sans-serif;
   font-weight: regular;
   color: black;
@@ -177,7 +177,6 @@
 
 .form-qna-long {
   width: 85%;
-  /* height: 150px; */
   margin: 0 auto 0 auto;
   display: flex;
   flex-direction: column;
@@ -218,9 +217,8 @@
 }
 
 #form-question-check {
-  margin-top: 3px;
   width: 84px;
-  margin-right: 39px;
+  margin-right: 30px;
   word-break: keep-all;
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 500;
@@ -231,14 +229,11 @@
 }
 
 .anwser-check {
-  max-width: 304px;
-  height: 235px;
   display: flex;
   flex-direction: column;
 }
 
 .check-list {
-  max-width: 267px;
   height: 35px;
   margin-bottom: 15px;
 }
@@ -266,6 +261,23 @@ input[type="checkbox"]:checked + label::before {
 }
 
 /* checkbox-redesign-end */
+
+#etctext {
+  display: inline-block;
+  height: 35px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: regular;
+  color: black;
+  font-size: 15px;
+  letter-spacing: -0.5px;
+  border: 0px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  outline-style: none; /* 포커스시 발생하는 효과 제거를 원한다면 */
+  -webkit-appearance: none; /* 브라우저별 기본 스타일링 제거 */
+  -moz-appearance: none;
+  appearance: none;
+}
 
 #form-question-2line {
   width: 89px;
@@ -297,9 +309,6 @@ input[type="checkbox"]:checked + label::before {
   padding-right: 5px;
 }
 
-.form-qna-check input {
-}
-
 .form-end-line {
   max-width: 512px;
   height: 3px;
@@ -308,6 +317,11 @@ input[type="checkbox"]:checked + label::before {
 }
 
 /* summit button */
+
+.summit {
+  position: relative;
+  margin: 0 auto;
+}
 
 #summit-button {
   width: 100px;
