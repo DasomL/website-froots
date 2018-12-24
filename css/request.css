@@ -235,6 +235,16 @@
   margin-bottom: 15px;
 }
 
+.check-list span {
+  word-break: keep-all;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  color: #000000;
+}
+
 /* checkbox-redesign */
 
 .check-list input {
@@ -263,11 +273,13 @@ input[type="checkbox"]:checked + label::before {
   display: inline-block;
   max-width: 120px;
   height: 35px;
+  word-break: keep-all;
   font-family: "Noto Sans KR", sans-serif;
-  font-weight: regular;
-  color: black;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 16px;
   letter-spacing: -0.5px;
+  line-height: 20px;
+  color: #000000;
   border: 0px solid black;
   border-bottom: 1px solid black;
   border-radius: 0;
