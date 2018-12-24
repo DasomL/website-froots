@@ -10,7 +10,7 @@
   <meta property="og:image" content="http://studiofroots.com/img/ogimage_froots.jpg">
   <title>FROOTS</title>
   <link rel="stylesheet" href="css/style.css">
-  <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 
@@ -51,6 +51,7 @@
     </div>
   </div>
 
+<!-- request-start -->
 
   <div class="request" data-aos="fade-in">
     <div class="request-title"><span>Project Request Form</span></div>
@@ -67,7 +68,7 @@
         작성한 내용을 토대로 만남을 준비하고 연락 드리겠습니다.</span>
     </div>
     <div class="request-notice">
-      <span>+ 작성된 개인 정보는 본 프로젝트를 위하여 사용되며 다른 목적으로는 사용되지 않습니다.</span>
+      <span>작성된 개인 정보는 본 프로젝트를 위하여 사용되며 다른 목적으로는 사용되지 않습니다.</span>
     </div>
     <div class="request-must"><span>* 필수 입력 정보</span></div>
 
@@ -80,72 +81,97 @@
         </div>
         <div class="form-question-list">
           <div class="form-qna">
-            <label id="form-question" for="form-anwser"><span>*</span>이름</label>
+            <label id="form-question" for="form-anwser"><span class="mustmark">*</span>이름</label>
             <input id="form-anwser" type="text">
           </div>
+            <div class="form-qna">
+              <label id="form-question" for="form-anwser"><span class="mustmark">*</span>연락처</label>
+              <input id="form-anwser" type="text">
+            </div>
           <div class="form-qna">
-            <label id="form-question" for="form-anwser"><span>*</span>연락처</label>
-            <input id="form-anwser" type="text">
-          </div>
-          <div class="form-qna">
-            <label id="form-question" for="form-anwser"><span>*</span>이메일</label>
-            <input id="form-anwser" type="text">
-          </div>
-        </div>
-        <div class="form-end-line"></div>
-      </div>
-      <div class="form-box">
-        <div class="form-title">
-          <div class="title-line"></div>
-          <div class="form-title-text"><span>브랜드 정보</span></div>
-          <div class="title-line"></div>
-        </div>
-        <div class="form-question-list">
-          <div class="form-qna">
-            <label id="form-question" for="form-anwser"><span>*</span>브랜드명</label>
-            <input id="form-anwser" type="text">
-          </div>
-          <div class="form-qna">
-            <label id="form-question" for="form-anwser"><span>*</span>분야</label>
-            <input id="form-anwser" type="text">
-          </div>
-          <div class="form-qna">
-            <label id="form-question" for="form-anwser">홈페이지</label>
+            <label id="form-question" for="form-anwser"><span class="mustmark">*</span>이메일</label>
             <input id="form-anwser" type="text">
           </div>
         </div>
         <div class="form-end-line"></div>
       </div>
+
+
       <div class="form-box">
         <div class="form-title">
           <div class="title-line"></div>
-          <div class="form-title-text"><span>프로젝트 정보</span></div>
+          <div class="form-title-text"><span>브랜드정보</span></div>
           <div class="title-line"></div>
         </div>
         <div class="form-question-list">
           <div class="form-qna">
-            <label id="form-question" for="form-anwser"><span>*</span>프로젝트 개요</label>
+            <label id="form-question" for="form-anwser"><span class="mustmark">*</span>브랜드명</label>
             <input id="form-anwser" type="text">
           </div>
           <div class="form-qna">
-            <label id="form-question" for="form-anwser"><span>*</span>요청항목</label>
-            <input id="form-anwser" type="checkbox" name="requestcategory" value="branding">브랜딩
-            <input id="form-anwser" type="checkbox" name="requestcategory" value="artdirection">아트디렉션
-            <input id="form-anwser" type="checkbox" name="requestcategory" value="graphic">그래픽디자인
-            <input id="form-anwser" type="checkbox" name="requestcategory" value="web">웹디자인
-            <input id="form-anwser" type="checkbox" name="requestcategory" value="etc">직접입력
-          </div>
-          <div class="form-qna">
-            <label id="form-question" for="form-anwser">홈페이지</label>
+            <label id="form-question" for="form-anwser"><span class="mustmark">*</span>분야</label>
             <input id="form-anwser" type="text">
           </div>
+          <div class="form-qna">
+            <label id="form-question" for="form-anwser"><span class="none-mustmark">*</span>홈페이지</label>
+            <input id="form-anwser" type="text">
+          </div>
+        </div>
+        <div class="form-end-line"></div>
+      </div>
+
+
+      <div class="form-box">
+        <div class="form-title">
+          <div class="title-line"></div>
+          <div class="form-title-text"><span>프로젝트정보</span></div>
+          <div class="title-line"></div>
+        </div>
+        <div class="form-question-list">
+          <div class="form-qna-long">
+            <label id="form-question-long" for="form-anwser-long"><span class="mustmark">*</span>프로젝트개요 & 목적</label>
+            <input id="form-anwser-long" type="textarea">
+          </div>
+
+          <div class="form-qna-check">
+            <label id="form-question-check" for="form-anwser-check"><span class="mustmark">*</span>요청항목</label>
+            <div class="anwser-check">
+              <div class="check-list">
+                <input id="form-anwser-check-1" type="checkbox" value="branding">
+                <label for="form-anwser-check-1"><span>브랜딩</span></label>
+              </div>
+              <div class="check-list">
+                <input id="form-anwser-check-2" type="checkbox" value="artdirection">
+                <label for="form-anwser-check-2">아트디렉션</label>
+              </div>
+              <div class="check-list">
+                <input id="form-anwser-check-3" type="checkbox" value="graphic">
+                <label for="form-anwser-check-3">그래픽디자인</label>
+              </div>
+              <div class="check-list">
+                <input id="form-anwser-check-4" type="checkbox" value="web">
+                <label for="form-anwser-check-4">웹디자인</label>
+              </div>
+              <div class="check-list">
+                <input id="form-anwser-check-5" type="checkbox" value="etc">
+                <label for="form-anwser-check-5"></label>
+              </div>
+              <div><input id="form-anwser" type="text" placeholder="직접입력"></div>
+            </div>
+          </div>
+
+          <div class="form-qna-long">
+            <label id="form-question-long" for="form-anwser-long">기타요청사항 & 남기실 말</label>
+            <input id="form-anwser-long" type="text">
+          </div>
+
         </div>
         <div class="form-end-line"></div>
       </div>
     </div>
-
-
-
+    <div class="summit">
+      <input id="summit-button" type="summit">
+    </div>
   </div>
 
 
@@ -174,6 +200,7 @@
   AOS.init();
 </script>
 
+  <script src="js/request-focushiddentext.js"></script>
 
 
   <script src="js/bgslideshow.js"></script>
