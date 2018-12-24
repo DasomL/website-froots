@@ -138,8 +138,22 @@
 
   /* pf-main start */
 
+  body .pf-category {
+    top: 90px;
+    padding: 0 30px 0 30px;
+  }
+
+  body .pf-category span {
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+
+  body .pf-category a {
+    font-size: 20px;
+  }
+
   body .pf-main {
-    top: 0px;
+    top: 170px;
   }
 
   body .pf-main-content-overlay {
